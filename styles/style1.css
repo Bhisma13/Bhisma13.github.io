@@ -1,9 +1,18 @@
 html {
-      background-image: url("\Images\bg1.jpg");
+      background-image: url("../Images/bg1.jpg ");
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
     }
 h1 {
     font-family: 'Press Start 2P', cursive;
+    text-align:center
   }
+#audioContainer {
+      text-align: left;
+      position: fixed;
+      bottom: 0;
+    }
+#wpLink {
+      width:88px;height:78px;border:0;
+    }
