@@ -6,12 +6,12 @@ html {
     }
 h1 {
     font-family: 'Press Start 2P', cursive;
-    text-align:center
+    text-align: center;
   }
-img.link {
-      width:88px;
-      height:78px;
-      border:0;
+#link {
+      width: 44px;
+      height: 39px;
+      border: 0;
     }
 #audioContainer {
       text-align: left;
