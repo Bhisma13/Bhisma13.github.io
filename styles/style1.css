@@ -8,11 +8,13 @@ h1 {
     font-family: 'Press Start 2P', cursive;
     text-align:center
   }
+img.link {
+      width:88px;
+      height:78px;
+      border:0;
+    }
 #audioContainer {
       text-align: left;
       position: fixed;
       bottom: 0;
-    }
-img.link {
-      width:88px;height:78px;border:0;
     }
