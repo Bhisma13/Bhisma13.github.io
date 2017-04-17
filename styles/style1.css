@@ -6,4 +6,13 @@ html {
     }
 h1 {
     font-family: 'Press Start 2P', cursive;
+    text-align:center
   }
+#audioContainer {
+      text-align: left;
+      position: fixed;
+      bottom: 0;
+    }
+#wpLink {
+      width:88px;height:78px;border:0;
+    }
