@@ -12,6 +12,7 @@ img {
       height: 150px;
       width: 200px;
       border: 0px;
+      text-align: center;
     }
 #audioContainer {
       text-align: left;
