@@ -266,6 +266,17 @@ img {
     margin-bottom: 4px;
 }
 
+/* single project section styles
+/* ========================================== */
+#single-project {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+
+#single-project .project-info {
+  padding-bottom: 10px;
+}
+
 /* footer section styles
 /* ========================================== */
 footer {
