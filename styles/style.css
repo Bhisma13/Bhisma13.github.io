@@ -147,7 +147,6 @@ img {
 /* header section styles
 /* ========================================== */
 #header {
-  -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
   text-align: center;
