@@ -277,6 +277,27 @@ img {
   padding-bottom: 10px;
 }
 
+/* about section styles
+/* ========================================== */
+#about {
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
+
+#about .col-md-4 {
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+#about img {
+  padding-bottom: 20px;
+}
+
+#about blockquote {
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
 /* footer section styles
 /* ========================================== */
 footer {
