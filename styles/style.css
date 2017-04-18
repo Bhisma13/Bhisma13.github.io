@@ -67,11 +67,6 @@ a:focus {
   color: inherit;
   text-decoration: none;
   outline: 0;
-  -webkit-transition: all 0.25s ease-out;
-  -moz-transition: all 0.25s ease-out;
-  -ms-transition: all 0.25s ease-out;
-  -o-transition: all 0.25s ease-out;
-  transition: all 0.25s ease-out;
 }
 
 img {
@@ -131,10 +126,6 @@ img {
         border-radius: 0.5em;
         padding: 0.85em;
         border: solid 1px transparent;
-        -moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-        -webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-        -ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-        transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
       }
 
         #nav > ul > li.active {
@@ -239,8 +230,6 @@ img {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
 }
 
 #portfolio .portfolio-thumb:hover .portfolio-overlay {
