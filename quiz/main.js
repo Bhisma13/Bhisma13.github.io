@@ -1,4 +1,4 @@
-var pos = 0, test, test_status, grade, question, choice, choices, chA, chB, chC, chD, correct = 0;
+var pos = 0, test, test_status, grade, nilai, question, choice, choices, chA, chB, chC, chD, correct = 0;
 var questions = [
 	["Berapa 10 + 4?", "13", "14", "15", "41", "B"],
 	["Berapa 11 x 11?", "121", "112", "111", "122", "A"],
@@ -15,7 +15,6 @@ function _(x) {
 	return document.getElementById(x);
 }
 function renderQuestion() {
-	var nilai= correct*10;
 	test = _("test");
 	if (nilai >= 80) {
 		grade = "A";
@@ -61,6 +60,7 @@ function checkAnswer() {
 	if (choice == questions[pos][5]) {
 		correct++;
 	}
+	nilai= correct*10;
 	pos++;
 	renderQuestion();
 }
