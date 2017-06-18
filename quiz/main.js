@@ -1,4 +1,5 @@
-var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, chD, correct = 0;
+var pos = 0, test, test_status, grade, question, choice, choices, chA, chB, chC, chD, correct = 0;
+var nilai= correct*10;
 var questions = [
 	["Berapa 10 + 4?", "13", "14", "15", "41", "B"],
 	["Berapa 11 x 11?", "121", "112", "111", "122", "A"],
@@ -16,9 +17,22 @@ function _(x) {
 }
 function renderQuestion() {
 	test = _("test");
+	if (nilai >= 80) {
+		grade = "A";
+	}
+	if (nilai < 80 && nilai >= 60) {
+		grade = "B";
+	}
+	if (nilai < 60 && nilai >= 40) {
+		grade = "C";
+	}
+	if (nilai < 40) {
+		grade = "D";
+	}
 	if (pos >= questions.length) {
 		test.innerHTML = "<h2>Anda menjawab "+correct+" jawaban benar dari "+questions.length+" pertanyaan<h2>";
-		test.innerHTML += "<h3>Nilai anda adalah: "+correct*10+"<h3>"
+		test.innerHTML += "<h3>Nilai anda adalah: "+nilai+"<h3>"
+		test.innerHTML += "<h3>Grade anda adalah: "+grade+"<h3>"
 		_("test_status").innerHTML = "Tes anda telah selesai!";
 		pos = 0;
 		correct = 0;
