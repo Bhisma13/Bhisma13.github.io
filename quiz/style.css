@@ -1,0 +1,18 @@
+#test {
+	border: #000 5px solid;
+	padding: 10px 40px 40px 40px;
+	background: #e3edeb;
+}
+
+#quis {
+	border: #000 3px solid;
+	padding: 10px 40px 40px 40px;
+	background: #ccc0b5;
+}
+
+body {
+    background-image: url("bgq.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
